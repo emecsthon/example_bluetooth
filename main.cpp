@@ -3,19 +3,27 @@
 //bluetooth module employs Serial Communication.
 Serial bluetooth(PA_9, PA_10);//Tx, Rx
 
-AnalogIn sensor(PA_0); 
-
-int main()
+DigitalOut myled(PA_5); //LED
+ 
+int main(void)
 {
+    char ch;
     bluetooth.baud(9600);
-    while(1) {
-        wait(1);
-        float humidity = sensor.read(); /* Read analog value */
-        
-        /* Calculate the resistance of the thermistor from analog votage read. */
-        float hum_value= ((abs(humidity-1)/0.55)*100);
-        
-        bluetooth.printf("\n Humidity level: %f", hum_value);
-       
+    
+    while(1)
+    {
+        if(bluetooth.readable())
+        {
+            ch=bluetooth.getc();
+            if (ch == '1')
+            {
+                myled = 1;
+            }
+            if (ch == '2')
+            {
+                myled = 0;
+            }
+                
+        }
     }
 }
