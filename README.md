@@ -109,7 +109,7 @@ These two programs are designed to see the functionality of bluetooth with the N
 ## Full System view
 
 
-![Overview](Circuit.png?raw=true "Overview")
+![Overview](Circuit.jpeg?raw=true "Overview")
 
 
 ## Authors
