@@ -98,6 +98,9 @@ The design of the App can be done at the user's choice. In this case, Appinvento
 
 * Connect your phone using the numerical code or the QR code
 
+![Sensor_app](sensor_app.png?raw=true "Sensor App")
+![Pump_app](pump_app.png?raw=true "Pump App")
+
 
 ## Functionality
 
