@@ -1,4 +1,4 @@
-# Nucleo example project with HC06 bluetooth module
+# Nucleo example project with HC-06 bluetooth module
 
 ## About
 
