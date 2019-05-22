@@ -105,11 +105,11 @@ Two diferent programs have been created. One of them to read the humidity sensor
 
 These two programs are designed to see the functionality of bluetooth with the Nucleo board. That is why the watering has not been automated, which would be very easy to implement.
 
--->
+
 ## Full System view
 
 
-![Overview](utils/img/overview.jpg?raw=true "Overview")
+![Overview](Circuit.png?raw=true "Overview")
 
 
 ## Authors
