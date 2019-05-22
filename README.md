@@ -28,7 +28,7 @@ The realization of the project consists of two parts: hardware and software.
 
 ## Circuit scheme
 
-![Overview](utils/img/overview.jpg?raw=true "Overview")
+![Overview](circuitdesign.png?raw=true "Circuit scheme")
 
 * Connect Bluetooth module
 
